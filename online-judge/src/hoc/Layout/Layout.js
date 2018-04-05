@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Layout.css';
+import Aux from '../Aux/Aux';
 
 class Layout extends Component {
     state = {
@@ -8,9 +9,12 @@ class Layout extends Component {
 
     render() {
         return (
-                <div>
-                    <p>good</p>
-                </div>
+            <Aux>
+                <main className={classes.Content}>
+                {this.props.children}
+                </main>
+                <p>good</p>
+            </Aux>
         )
     }
 }
