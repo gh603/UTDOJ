@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import Logo from '../../Logo/Logo'; 
+import Logo from '../../LogoHeader/Logo'; 
 
 const toolbar = (props) => (
     <div>

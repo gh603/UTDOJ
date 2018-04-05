@@ -3,6 +3,7 @@ import classes from './Layout.css';
 import Aux from '../Aux/Aux';
 
 import Toolbar from '../../component/Navigation/Toolbar/Toolbar'; 
+import Footer from '../../component/Navigation/Footer/Footer';
 
 class Layout extends Component {
     state = {
@@ -17,6 +18,7 @@ class Layout extends Component {
                 {this.props.children}
                 </main>
                 <p>good</p>
+                <Footer />
             </Aux>
         )
     }
